@@ -3,14 +3,14 @@
     <div class="bg-gray-100 min-h-screen flex items-center justify-center">
         <main class="bg-white p-8 rounded-xl shadow-md w-full max-w-2xl flex flex-col max-h-screen m-16">
             <div class="text-center mb-6">
-            <img src="@/assets/pic/bike.jpg" alt="Bike Illustration" class="w-64 mx-auto mb-4">
-            <h1 class="text-3xl font-bold mb-2">YouBike 即時資訊查詢</h1>
-            <p class="text-gray-600">
-                資料來源：
-                <a class="text-gray-400" href="https://data.gov.tw/dataset/137993" target="_blank"
-                >政府資料開放平台</a
-                >
-            </p>
+                <img src="@/assets/pic/bike.jpg" alt="Bike Illustration" class="w-64 mx-auto mb-4">
+                <h1 class="text-3xl font-bold mb-2">YouBike 即時資訊查詢</h1>
+                <p class="text-gray-600">
+                    資料來源：
+                    <a class="text-gray-400" href="https://data.gov.tw/dataset/137993" target="_blank"
+                    >政府資料開放平台</a
+                    >
+                </p>
             </div>
             <!-- 表單 -->
             <form id="searchForm" @submit.prevent="handleSubmit">
